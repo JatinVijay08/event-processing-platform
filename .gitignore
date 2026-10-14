@@ -1,0 +1,80 @@
+ =========================================================================
+ # Application secrets
+src/main/resources/application.properties
+
+# Maven & Build Artifacts
+# =========================================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Ensure Maven Wrapper jar is NOT ignored (if you want to keep the wrapper)
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================================================================
+# Java & Compiled Files
+# =========================================================================
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# Package Archives (Optional: uncomment if you don't build jars inside the root)
+# *.jar
+# *.war
+# *.ear
+
+# =========================================================================
+# IntelliJ IDEA
+# =========================================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# =========================================================================
+# Eclipse / Spring Tool Suite (STS)
+# =========================================================================
+.metadata/
+bin/
+tmp/
+.tmp/
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache
+
+# =========================================================================
+# Visual Studio Code
+# =========================================================================
+.vscode/
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================================================================
+# Environment & Sensitive Information (Security Best Practice)
+# =========================================================================
+.env
+*.locals
