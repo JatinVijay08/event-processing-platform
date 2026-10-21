@@ -1,0 +1,6 @@
+services: # defines the application compose manages
+  kafka: # name of the service
+    image: apache/kafka:4.3.1 # image this service will create and Docker will manage
+    ports: # port mapping from source LocalHost:9092 to Kafka container port 9092
+      - "9092:9092"
+

@@ -1,6 +1,7 @@
  =========================================================================
- # Application secrets
-src/main/resources/application.properties
+# Application secrets
+# Local environment configurations
+src/main/resources/application-local.properties
 
 # Maven & Build Artifacts
 # =========================================================================
